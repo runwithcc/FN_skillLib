@@ -34,33 +34,31 @@ cp -R short-term-negative-emotion-self-coach/packages/yongcheng-style ~/.agents/
 ~/.codex/skills/short-term-negative-emotion-self-coach
 ```
 
-## 方式 2：导入 `.skill` 打包文件
-
-如果目标环境支持导入 `.skill` 文件，直接用 `dist` 下的打包产物。
+## 方式 2：直接下载 `.skill` 打包文件
 
 默认版：
 
-```text
-short-term-negative-emotion-self-coach-default.skill
-```
+- https://raw.githubusercontent.com/runwithcc/FN_skillLib/master/short-term-negative-emotion-self-coach/dist/short-term-negative-emotion-self-coach-default.skill
 
 永澄版：
 
-```text
-short-term-negative-emotion-self-coach-yongcheng-style.skill
-```
+- https://raw.githubusercontent.com/runwithcc/FN_skillLib/master/short-term-negative-emotion-self-coach/dist/short-term-negative-emotion-self-coach-yongcheng-style.skill
 
 ## 方式 3：从 GitHub 拉取
 
 适合要发给别人长期复用。
 
-只要把这个 repo 发给对方，然后让对方复制 `packages/default` 或 `packages/yongcheng-style` 到自己的 skills 目录即可。
+当前公开仓库：
 
-如果后续放到公开 GitHub repo，最稳的说法是：
+```text
+https://github.com/runwithcc/FN_skillLib/tree/master/short-term-negative-emotion-self-coach
+```
+
+最稳的说法是：
 
 ```bash
-git clone <repo-url>
-cp -R <repo>/packages/default ~/.agents/skills/short-term-negative-emotion-self-coach-0.1.0
+git clone https://github.com/runwithcc/FN_skillLib.git
+cp -R FN_skillLib/short-term-negative-emotion-self-coach/packages/default ~/.agents/skills/short-term-negative-emotion-self-coach-0.1.0
 ```
 
 ## 安装后怎么试
