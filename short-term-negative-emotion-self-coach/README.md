@@ -1,5 +1,7 @@
 # 短期负面情绪自我教练 Skill
 
+![安装卡片](./assets/install-card.svg)
+
 这一套发布包包含两个版本：
 
 - `default`
@@ -23,6 +25,14 @@
 - `TEST-CASES.md`
 - `INSTALL.md`
 - `dist/`
+- `assets/install-card.svg`
+
+## 快速下载
+
+- 默认版：`dist/short-term-negative-emotion-self-coach-default.skill`
+- 永澄版：`dist/short-term-negative-emotion-self-coach-yongcheng-style.skill`
+- 安装说明：`INSTALL.md`
+- 试运行用例：`TEST-CASES.md`
 
 ## 适用问题
 

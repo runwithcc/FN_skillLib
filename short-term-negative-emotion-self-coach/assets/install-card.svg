@@ -1,0 +1,66 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="86" y1="62" x2="1498" y2="838" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8E7"/>
+      <stop offset="0.5" stop-color="#F6F5FF"/>
+      <stop offset="1" stop-color="#E8FFF7"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="154" y1="126" x2="1414" y2="764" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#FFFDF7" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="194" y1="681" x2="1406" y2="681" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A59"/>
+      <stop offset="0.5" stop-color="#F63D68"/>
+      <stop offset="1" stop-color="#1FA971"/>
+    </linearGradient>
+    <filter id="shadow" x="100" y="78" width="1400" height="744" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="26"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.145098 0 0 0 0 0.129412 0 0 0 0 0.211765 0 0 0 0.12 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="36" fill="url(#bg)"/>
+  <circle cx="1368" cy="130" r="158" fill="#FFE1D3"/>
+  <circle cx="151" cy="758" r="130" fill="#DFF7EE"/>
+  <circle cx="1276" cy="760" r="92" fill="#E9E5FF"/>
+
+  <g filter="url(#shadow)">
+    <rect x="126" y="104" width="1348" height="692" rx="36" fill="url(#panel)"/>
+  </g>
+
+  <rect x="194" y="166" width="206" height="42" rx="21" fill="#1D1630"/>
+  <text x="226" y="194" fill="#FFF8E7" font-size="23" font-family="PingFang SC, SF Pro Display, Arial, sans-serif" font-weight="700">AGENT SKILL</text>
+
+  <text x="194" y="286" fill="#181329" font-size="64" font-family="PingFang SC, SF Pro Display, Arial, sans-serif" font-weight="800">短期负面情绪自我教练</text>
+  <text x="194" y="344" fill="#51486B" font-size="32" font-family="PingFang SC, SF Pro Display, Arial, sans-serif" font-weight="600">先安顿，再澄清，再推进</text>
+
+  <text x="194" y="430" fill="#342C49" font-size="28" font-family="PingFang SC, SF Pro Text, Arial, sans-serif" font-weight="600">适合场景</text>
+  <text x="194" y="475" fill="#51486B" font-size="25" font-family="PingFang SC, SF Pro Text, Arial, sans-serif">• 看到别人赚钱后自卑、焦虑、慌张</text>
+  <text x="194" y="516" fill="#51486B" font-size="25" font-family="PingFang SC, SF Pro Text, Arial, sans-serif">• 副业受挫后开始否定自己、停不下来内耗</text>
+  <text x="194" y="557" fill="#51486B" font-size="25" font-family="PingFang SC, SF Pro Text, Arial, sans-serif">• 想恢复行动，但不想再被空安慰或瞎鼓励</text>
+
+  <text x="194" y="640" fill="#342C49" font-size="28" font-family="PingFang SC, SF Pro Text, Arial, sans-serif" font-weight="600">它会做什么</text>
+  <text x="194" y="685" fill="#1C7C54" font-size="26" font-family="PingFang SC, SF Pro Text, Arial, sans-serif" font-weight="700">01 接住情绪</text>
+  <text x="406" y="685" fill="#C84E1B" font-size="26" font-family="PingFang SC, SF Pro Text, Arial, sans-serif" font-weight="700">02 拆开事实与评价</text>
+  <text x="754" y="685" fill="#A12CC4" font-size="26" font-family="PingFang SC, SF Pro Text, Arial, sans-serif" font-weight="700">03 找回一个最小行动</text>
+
+  <rect x="984" y="206" width="404" height="178" rx="28" fill="#FFF7F2"/>
+  <text x="1020" y="255" fill="#A34B24" font-size="24" font-family="PingFang SC, SF Pro Text, Arial, sans-serif" font-weight="700">安装方式</text>
+  <text x="1020" y="304" fill="#3A314F" font-size="25" font-family="PingFang SC, SF Pro Text, Arial, sans-serif">1. 直接下载 .skill 包</text>
+  <text x="1020" y="343" fill="#3A314F" font-size="25" font-family="PingFang SC, SF Pro Text, Arial, sans-serif">2. 复制到 Claude Code / Codex</text>
+
+  <rect x="984" y="410" width="404" height="242" rx="28" fill="#F5F7FF"/>
+  <text x="1020" y="460" fill="#3849B7" font-size="24" font-family="PingFang SC, SF Pro Text, Arial, sans-serif" font-weight="700">公开地址</text>
+  <text x="1020" y="510" fill="#1C1930" font-size="28" font-family="SF Mono, Menlo, monospace" font-weight="700">value.wiki/emotion-coach</text>
+  <text x="1020" y="558" fill="#585277" font-size="21" font-family="PingFang SC, SF Pro Text, Arial, sans-serif">GitHub: runwithcc/FN_skillLib</text>
+  <text x="1020" y="607" fill="#585277" font-size="21" font-family="PingFang SC, SF Pro Text, Arial, sans-serif">内含 default / yongcheng-style 两个版本</text>
+
+  <rect x="194" y="734" width="1212" height="10" rx="5" fill="url(#accent)"/>
+  <text x="194" y="790" fill="#51486B" font-size="25" font-family="PingFang SC, SF Pro Text, Arial, sans-serif">默认版更柔和通用，永澄版更有判断感与推进力。</text>
+</svg>
